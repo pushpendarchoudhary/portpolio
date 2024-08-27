@@ -9,14 +9,16 @@ function App() {
   return (
     <Router>
     <div className="App">
-    <div class="left-side"></div>
-    <div class="right-side"></div>
-      <Header />
-      <Routes>
-          <Route path='/' Component={Home}/>
-         
-      </Routes>
-      <Footer/>
+      
+      <div class= "centre">
+        
+        <Header />
+        <Routes>
+            <Route path='/' Component={Home}/>         
+        </Routes>
+        <Footer/></div>
+        
+      
     </div></Router>
   );
 }

@@ -1,0 +1,23 @@
+.Academic-div{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    align-items: center;
+    margin: 2vh;
+}
+
+.academic{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    letter-spacing: 1vh;
+    align-self:center;
+}
+
+.percentage{
+    font-size: 64px;
+    margin: 0%;
+}
+.percentage span{
+    font-size: 24px;
+    margin: 0%;
+}

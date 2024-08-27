@@ -1,0 +1,9 @@
+
+.Header{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style: none;
+    background-color: rgb(94, 157, 48);
+}

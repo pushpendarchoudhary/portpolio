@@ -1,0 +1,37 @@
+.introduction{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-image{
+    width: 50vw;
+    height: 80vh;
+    border-radius: 20%;
+}
+
+.Iam, .Name, .Software{
+    text-align: left;
+    font-size: 36px;
+    margin-left: 5vw;
+    
+}
+
+.first{
+    font-size: 80px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+
+    
+}
+.surname{
+    font-size: 80px;
+    margin-top: 0%;
+}
+
+.Software{
+    letter-spacing: 20px;
+    font-size: 24px;
+    font-family: sans-serif;
+    
+}

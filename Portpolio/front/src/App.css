@@ -1,9 +1,5 @@
 .App {
   text-align: center;
-  border: 80px solid transparent;
-  border-image: url('./img/mandala.jpg') 200 repeat;
-
- 
 }
 
 
