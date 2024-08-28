@@ -13,25 +13,28 @@
 .Iam, .Name, .Software{
     text-align: left;
     font-size: 36px;
-    margin-left: 5vw;
     
 }
 
 .first{
-    font-size: 80px;
+    font-size: min(80px,10vw);
     margin-bottom: 0%;
     margin-top: 0%;
-
-    
 }
 .surname{
-    font-size: 80px;
+    font-size: min(80px,10vw);
     margin-top: 0%;
 }
 
 .Software{
-    letter-spacing: 20px;
+    letter-spacing: 1.5vw;
     font-size: 24px;
     font-family: sans-serif;
     
+}
+
+@media(max-width: 600px){
+    .profile-image{
+        display: none;
+    }
 }

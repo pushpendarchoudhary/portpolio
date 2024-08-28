@@ -1,9 +1,20 @@
 
 .Header{
     display: flex;
-    justify-content: space-evenly;
     font-size: 24px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     list-style: none;
-    background-color: rgb(94, 157, 48);
+    margin-top: 0%;
+}
+
+.Header li{
+    padding: 0.5% 3%;
+    background-color: aquamarine;
+    border-radius: 0% 0% 35% 35%;
+    margin: 0% 0.2%;
+    
+}
+
+.Header a{
+    text-decoration: none;
 }

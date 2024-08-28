@@ -3,6 +3,7 @@ import nobgImage from '../img/nobg.png';
 import Academics from './Homecomp/academic';
 import Projects from './Homecomp/projects';
 import "./home.css";
+import Skills from './Homecomp/skills';
 
 function Home (){
     return (
@@ -19,7 +20,9 @@ function Home (){
             </div>
             <div>
                 <Academics/>
+                <Skills/>
                 <Projects/>
+
 
             </div>
         </div>

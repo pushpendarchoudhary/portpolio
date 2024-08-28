@@ -1,0 +1,27 @@
+.Skills-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Skills-container img{
+    max-width: 20vw;
+    max-height: 20vh;
+    
+}
+.logo-container div{
+    flex: 1 1 20%;
+    margin: 1.5% 1%;
+    align-content: center;
+    border: 1px solid red;
+}
+
+.Skills-container h1{
+    writing-mode: vertical-lr;
+    letter-spacing: 1vh;
+    align-self:center;
+}
