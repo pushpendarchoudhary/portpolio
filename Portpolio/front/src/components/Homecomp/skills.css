@@ -1,6 +1,6 @@
 .Skills-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .logo-container{
@@ -9,19 +9,58 @@
 }
 
 .Skills-container img{
-    max-width: 20vw;
-    max-height: 20vh;
-    
+    max-width: 18vw;
+    max-height: 18vh;
 }
 .logo-container div{
     flex: 1 1 20%;
     margin: 1.5% 1%;
     align-content: center;
-    border: 1px solid red;
+    /* border: 3px solid rebeccapurple; */
+    border-radius: 10%;
+    box-shadow: 0 4px 8px gray;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.logo-container div:hover{
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px rgb(18, 15, 15);
+    
 }
 
+.logo-container p{
+    font-family: "EB Garamond";
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 530;
+    
+}
 .Skills-container h1{
     writing-mode: vertical-lr;
     letter-spacing: 1vh;
     align-self:center;
+    font-family: "EB Garamond";
+}
+.additional-skills{
+    text-align: right;
+}
+
+@media (max-width: 350px){
+    .logo-container img{
+        display: none;
+    }
+
+    .logo-container{
+        margin: 0%;
+        display: block;
+
+    }
+
+    .Skills-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Skills-container h1{
+        writing-mode:horizontal-tb;
+    }
 }

@@ -13,15 +13,18 @@ function Skills (){
         <div>
             <div className="Skills-container">
                
+                <div className="skills">
                 <div className="logo-container">
                     <div><img src={javalogo} alt="javalogo"/><p>Java</p></div>
                     <div><img src={csslogo} alt="csslogo"/><p>CSS</p></div>
                     <div><img src={javascriptlogo} alt="javascriptlogo"/><p>JavaScript</p></div>
                     <div><img src={mongodblogo} alt="mongodblogo"/><p>MongoDb</p></div>
-                    <div><img src={mysqllogo} alt="mysqllogo"/><p>mysqllogo</p></div>
-                    <div><img src={nodejslogo} alt="nodejslogo"/><p>nodeJs</p></div>
-                    <div> <img src={reactlogo} alt="reactlogo"/><p>reactlogo</p></div>
+                    <div><img src={mysqllogo} alt="mysqllogo"/><p>MySql</p></div>
+                    <div><img src={nodejslogo} alt="nodejslogo"/><p>NodeJs</p></div>
+                    <div><img src={reactlogo} alt="reactlogo"/><p>ReactJs</p></div>
                 </div> 
+                <div className="additional-skills"><a href=""  >Additional Skills</a></div>
+                </div>
                 <h1>Skills</h1>
             </div>
             

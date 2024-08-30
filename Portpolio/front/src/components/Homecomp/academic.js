@@ -6,6 +6,7 @@ function Academics (){
         <div>
             <div className="Academic-div">
             <h1 className="academic">Academics</h1>
+            <div className='marks-div'>
             <div>
             <h2 className= "percentage">80.4<span>%</span> </h2>
             <h2>BTech CSE </h2>
@@ -25,6 +26,7 @@ function Academics (){
             <h2>10th CBSE </h2>
             <h2>Hilton Convent School</h2>
             <h2> Amroha, India</h2>
+            </div>
             </div>
             </div>
         </div>

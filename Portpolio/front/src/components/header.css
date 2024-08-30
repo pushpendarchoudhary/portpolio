@@ -2,19 +2,27 @@
 .Header{
     display: flex;
     font-size: 24px;
-    font-family: sans-serif;
+    font-family: "EB Garamond";
     list-style: none;
     margin-top: 0%;
+    color: black;
 }
 
 .Header li{
     padding: 0.5% 3%;
-    background-color: aquamarine;
     border-radius: 0% 0% 35% 35%;
     margin: 0% 0.2%;
+    box-shadow: 0 4px 8px gray;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Header li:hover{
+    transform: scale(1.01);
+    box-shadow: 0 8px 16px rgb(18, 15, 15);
     
 }
 
 .Header a{
     text-decoration: none;
+    color: black;
 }
