@@ -5,10 +5,11 @@
     font-family: "EB Garamond";
     list-style: none;
     margin-top: 0%;
+    margin-left: 0%;
     color: black;
 }
 
-.Header li{
+.Header div{
     padding: 0.5% 3%;
     border-radius: 0% 0% 35% 35%;
     margin: 0% 0.2%;
@@ -16,13 +17,40 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.Header li:hover{
+.Header div:hover{
     transform: scale(1.01);
     box-shadow: 0 8px 16px rgb(18, 15, 15);
     
 }
 
+.Header div:active{
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgb(18, 15, 15);
+}
+
 .Header a{
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .Header{
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-around;
+        position:fixed;
+        height: 100vh;
+        margin:  10px -50px;
+
+    }
+
+    .Header div{
+        transform: rotate(90deg);
+        padding: 10px 0px;
+        border-radius: 35% 35% 0% 0% ;
+        margin: 5px 0px;
+        font-size: 21px;
+    }
+
 }

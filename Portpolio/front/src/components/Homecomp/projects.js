@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faArrowLeft, faArrowRight} from '@fortawesome/free-solid-svg-icons';
 import porjectimg from "../../img/full image.jpg";
 
-function Projects (){
+const Projects = ()=>{
     return (
         <div>
             <div className="Project-div">

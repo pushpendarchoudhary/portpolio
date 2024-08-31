@@ -79,3 +79,31 @@
     align-items:last baseline;
     /* margin-top: 0%; */
 }
+@media  screen and (max-width: 800px) {
+    
+    .project-details img{
+        display: none;
+    }
+
+    .Project-div{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .project-main{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 15px;
+    }
+    .project-main button{
+        margin: 5px 0px
+    }
+
+    .Project-div h1{
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        
+    }
+}

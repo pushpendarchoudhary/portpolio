@@ -7,6 +7,7 @@ ul{
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .Footer-list li{
@@ -16,29 +17,28 @@ ul{
     padding: 5px 18px; 
     border-radius: 8px;
     margin: 5px;
-    width: calc(100/6);
     box-shadow: 0px 8px 16px gray;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .Footer-list li:hover{
-    transform: scale(1.1);
+    transform: scale(1.08);
     box-shadow: 0 8px 16px rgb(18, 15, 15);
 
 }
 
 .Footer-list li:active{
-    transform: scale(0.9);
+    transform: scale(0.95);
 }
 
 .Footer-list a{
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
     width: 100%;
     font-family: "EB Garamond";
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 550;
     color: black;
     
 }

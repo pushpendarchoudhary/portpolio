@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+
 .Academic-div{
     display: flex;
     justify-content: space-between;
     text-align: left;
     align-items: center;
     margin: 2vh;
-   
+
 }
 .marks-div{
     flex: 1;
@@ -13,34 +18,55 @@
     border-radius: 20px;
     box-shadow: 0px 8px 16px gray;
     padding: 5% 1%;
-    
 }
+
 .Academic-div h2{
     margin: 0;
     font-family: "EB Garamond";
-    /* text-shadow: 0px 1px 2px rgb(201, 183, 181); */
-    background: #182340;
+    background: #000000;
     background-clip: text;
     color: transparent;
-    
 }
+
 .academic{
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     letter-spacing: 1vh;
     align-self:center;
     font-family: "EB Garamond";
-
 }
-
-
 
 .percentage{
     font-size: 64px;
-    /* margin: 0%; */
-    
+    font-family: "Old Standard TT", serif;
+    font-weight: 600;
+    font-style: normal;
 }
+
 .percentage span{
     font-size: 24px;
     /* margin: 0%; */
+}
+
+@media screen and (max-width: 600px) {
+
+    .Academic-div{
+        flex-direction: column;
+    }
+
+    .marks-div{
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+    }
+    .marks-div div{
+        margin: 10px 0px;
+    }
+
+    .academic{
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        margin-bottom: 20px;
+    }
+    
 }

@@ -8,11 +8,10 @@ import nodejslogo from "../../img/nodejs-logo-vector.svg";
 import reactlogo from "../../img/react-logo-vector.svg";
 import "./skills.css";
 
-function Skills (){
+const Skills =()=>{
     return(
         <div>
             <div className="Skills-container">
-               
                 <div className="skills">
                 <div className="logo-container">
                     <div><img src={javalogo} alt="javalogo"/><p>Java</p></div>
@@ -27,7 +26,6 @@ function Skills (){
                 </div>
                 <h1>Skills</h1>
             </div>
-            
         </div>
     )
 }

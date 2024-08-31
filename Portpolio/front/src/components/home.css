@@ -3,6 +3,7 @@
     justify-content: space-around;
     align-items: center;
     font-family: "EB Garamond";
+    
 }
 
 .profile-image{
@@ -29,9 +30,10 @@
 }
 
 .Software{
-    letter-spacing: 1.5vw;
+    letter-spacing: clamp(0.8vw, 1.2vw, 1.8vw);
     font-size: 24px;
     font-family: sans-serif;
+    white-space: nowrap;
     
 }
 

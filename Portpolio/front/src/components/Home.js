@@ -4,8 +4,9 @@ import Academics from './Homecomp/academic';
 import Projects from './Homecomp/projects';
 import "./home.css";
 import Skills from './Homecomp/skills';
+import Timeline from './Homecomp/timeline';
 
-function Home (){
+const Home =()=>{
     return (
         <div>
             <div class="introduction">
@@ -22,7 +23,7 @@ function Home (){
                 <Academics/>
                 <Skills/>
                 <Projects/>
-
+                <Timeline/>
 
             </div>
         </div>
