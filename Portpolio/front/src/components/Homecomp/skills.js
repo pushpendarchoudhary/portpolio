@@ -22,7 +22,7 @@ const Skills =()=>{
                     <div><img src={nodejslogo} alt="nodejslogo"/><p>NodeJs</p></div>
                     <div><img src={reactlogo} alt="reactlogo"/><p>ReactJs</p></div>
                 </div> 
-                <div className="additional-skills"><a href=""  >Additional Skills</a></div>
+                <div className="additional-skills"><a href="https://example.com"  >Additional Skills</a></div>
                 </div>
                 <h1>Skills</h1>
             </div>

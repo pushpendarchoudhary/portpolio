@@ -16,8 +16,7 @@ const Home =()=>{
                     <h1 class= "Name surname">CHOUDHARY</h1>
                     <p class= "Software">Software Engineer</p>
                 </div>
-            
-            <img class ="profile-image" src={nobgImage} alt='img'/>
+                <img class ="profile-image" src={nobgImage} alt='img'/>
             </div>
             <div>
                 <Academics/>
